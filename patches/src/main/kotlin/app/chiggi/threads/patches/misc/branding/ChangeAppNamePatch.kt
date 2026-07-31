@@ -18,7 +18,7 @@ val changeAppNamePatch = resourcePatch(
 
     val appName by stringOption(
         key = "appName",
-        default = "Threads Morphe",
+        default = "Threads",
         title = "App name",
         description = "The name shown under the app icon.",
         required = true,
